@@ -50,17 +50,19 @@ public class Question1B extends FragmentActivity implements OnMapReadyCallback {
 
            //     Marker remove = ;
 
-
+                mMap.clear();
                 Double latitude = location.getLatitude();
                 Double longitude = location.getLongitude();
                 LatLng Curlocation = new LatLng(latitude, longitude);
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Curlocation,14));
                 mMap.addMarker(new MarkerOptions().position(Curlocation).title("Current location"));
-              //  mMap.clear();
+                mMap.animateCamera(CameraUpdateFactory.zoomTo(16),2000,null);
+              //
 
 
 
 
-                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Curlocation,16));
+             ///   mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(Curlocation,16));
 
 
 
@@ -115,7 +117,7 @@ public class Question1B extends FragmentActivity implements OnMapReadyCallback {
         }
         if (isLocationPermissionGranted())
         {
-            locationManager.requestLocationUpdates("gps", 100, 5, listener);
+            locationManager.requestLocationUpdates("gps", 3000, 0, listener);
         }
         else {
             Toast.makeText(Question1B.this, "Accept the Location permission", Toast.LENGTH_SHORT).show();
