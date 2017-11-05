@@ -44,7 +44,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 
@@ -205,25 +204,10 @@ public class addrepair extends AppCompatActivity
     private void showData(DataSnapshot dataSnapshot) {
 
         try{
-            Iterable<DataSnapshot> lstSnapshots = dataSnapshot.getChildren();
-            ArrayList<DataSnapshot> ds = new ArrayList<>();
-            for (DataSnapshot dataSnapshot1 : lstSnapshots) {
-                //Toast.makeText(this, dataSnapshot1.toString(), Toast.LENGTH_SHORT).show();
-                ds.add(dataSnapshot1); //sets firebase objects by last added
+           String tick = dataSnapshot.child("ticket number").getValue().toString();
+            Toast.makeText(this, "ticket " + tick, Toast.LENGTH_SHORT).show();
 
-            }
-
-            for(int  i = ds.size() - 1; i >= 0; i--) {
-
-                try{
-                ticketNum = Integer.parseInt(ds.get(i).child("ticket number").getValue().toString());
-                ticketNum++;}
-                catch (Exception e)
-                {
-                    Toast.makeText(this, " shit " + e.getMessage(), Toast.LENGTH_SHORT).show();
-                }
-
-            }
+            ticketNum = Integer.parseInt(tick);
 
         }
         catch (Exception ex)
@@ -401,48 +385,57 @@ public class addrepair extends AppCompatActivity
         if (id == R.id.nav_addRepair) {
 
             startActivity(new Intent(getApplicationContext(), addrepair.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
 
         } else if (id == R.id.nav_ViewRepairs) {
             startActivity(new Intent(getApplicationContext(), viewRepairs.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
 
         } else if (id == R.id.nav_repairs_date) {
             startActivity(new Intent(getApplicationContext(), searchDateRepair.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
         }else if (id == R.id.nav_name_search) {
             startActivity(new Intent(getApplicationContext(), nameSearch.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
         }
         else if(id==R.id.nav_phone_search) {
             startActivity(new Intent(getApplicationContext(), searchCellphone.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
 
         } else if(id==R.id.nav_ticket_search)
         {
             startActivity(new Intent(getApplicationContext(), searchTicket.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
 
 
         } else if (id == R.id.nav_login) {
             startActivity(new Intent(getApplicationContext(), login.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
 
         } else if (id == R.id.nav_signUp) {
             startActivity(new Intent(getApplicationContext(), signup.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
         }
         else if (id==R.id.nav_help)
         {
             startActivity(new Intent(getApplicationContext(), help.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
         }

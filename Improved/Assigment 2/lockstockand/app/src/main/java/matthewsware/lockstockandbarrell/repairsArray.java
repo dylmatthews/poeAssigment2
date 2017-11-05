@@ -3,6 +3,7 @@ package matthewsware.lockstockandbarrell;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -11,12 +12,15 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.storage.FileDownloadTask;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -32,9 +36,11 @@ public class repairsArray extends ArrayAdapter<repairs> {
 
     private List<repairs> cardList = new ArrayList<repairs>();
     private StorageReference storageRef = FirebaseStorage.getInstance().getReference();
+    private Context co;
 
     public repairsArray(Context context, int resource) {
         super(context, resource);
+        co = context;
     }
 
     static class CardViewHolder {
@@ -68,7 +74,7 @@ public class repairsArray extends ArrayAdapter<repairs> {
 
             viewHolder = new CardViewHolder();
             viewHolder.im = (ImageView) row.findViewById(id.grid_item_image);
-          //  viewHolder.tv = (TextView) row.findViewById(id.grid_item_text);
+            //  viewHolder.tv = (TextView) row.findViewById(id.grid_item_text);
 
             row.setTag(viewHolder);
         } else {
@@ -76,42 +82,57 @@ public class repairsArray extends ArrayAdapter<repairs> {
         }
 
         repairs card = getItem(position);
-        viewHolder.imgUrl= card.getImgUrl();
+        viewHolder.imgUrl = card.getImgUrl();
         //downloads image
-      //  viewHolder.tv.setText("jdshjds");
+        //  viewHolder.tv.setText("jdshjds");
         String ref = "repairs/" + viewHolder.imgUrl;
-        storageRef.child(ref).getBytes(Long.MAX_VALUE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
-            @Override
-            public void onSuccess(byte[] bytes) {
-                // Use the bytes to display the image
-                final Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0
-                        , bytes.length);
+        final File file = new File(co.getFilesDir(), viewHolder.imgUrl);
+        File check = (co.getFilesDir());
+        boolean imgNotExists = true;
+        final File[] imgAr = check.listFiles();
 
-                viewHolder.im.post(new Runnable() {
-                    @Override
-                    public void run() {
-                        Log.i("shitTest", "shitTestp");
-                        viewHolder.im.setImageBitmap(bitmap);
-                    }
-                }) ;
+        for (int i = 0; i < imgAr.length; i++) {
+
+            if (viewHolder.imgUrl.equals(imgAr[i].getName())) {
+
+                imgNotExists = false;
+
+                // iv.setImageBitmap(decodeSampledBitmap(imgAr[i].getName()));
+                //Toast.makeText(co, "image exists", Toast.LENGTH_SHORT).show();
+                // Bitmap bit = BitmapFactory.decodeFile(imgAr[i].getAbsolutePath());
+                //  viewHolder.im.setImageBitmap(bit);
+                viewHolder.im.setImageURI(Uri.parse(imgAr[i].getAbsolutePath()));
+                i = imgAr.length;
 
 
             }
-        }).addOnFailureListener(new OnFailureListener() {
-            @Override
-            public void onFailure(@NonNull Exception exception) {
-                Log.i("shit", exception.getMessage());
 
-            }
-        });
-
-        //URI uri = new URI("android.resource;//am.dx.varsityspecials.www.varsityspecials/" + R.mipmap.add_btn);
-        //viewHolder.im.setImageURI(Uri.parse("android.resource;//am.dx.varsityspecials.www.varsityspecials/" + mipmap.add_btn));
-        // AQuery aq =  new AQuery(etContext())).id(exploreViewHolder.getvProfilePic()).image(item.getUserProfilePicUrl().trim(), true, true, device_width, R.drawable.profile_background, aquery.getCachedImage(R.drawable.profile_background),0);
+        }
 
 
-        //r
+        if (imgNotExists) {
+            storageRef.child(ref).getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                @Override
+                public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                    Bitmap bit = BitmapFactory.decodeFile(file.getAbsolutePath());
+                    viewHolder.im.setImageBitmap(bit);
+                    Toast.makeText(co, "download image", Toast.LENGTH_SHORT).show();
 
+
+                }
+
+
+            }).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception e) {
+                    // Toast.makeText(co, "Failed to download image", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(co, "Failed to download image" + e.getMessage(), Toast.LENGTH_SHORT).show();
+                }
+            });
+
+
+
+        }
         return row;
 
     }

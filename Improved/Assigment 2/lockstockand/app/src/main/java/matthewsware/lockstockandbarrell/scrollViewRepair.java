@@ -21,8 +21,11 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnFailureListener;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.storage.FileDownloadTask;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
+
+import java.io.File;
 
 public class scrollViewRepair extends AppCompatActivity {
 
@@ -80,34 +83,53 @@ public class scrollViewRepair extends AppCompatActivity {
         tvMEssage.setText(message);
 
         final String ref = "repairs/" + imgUrl;
-        storageRef.child(ref).getBytes(Long.MAX_VALUE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
-            @Override
-            public void onSuccess(byte[] bytes) {
-                storageRef.child(ref).getBytes(Long.MAX_VALUE).addOnSuccessListener(new OnSuccessListener<byte[]>() {
-                    @Override
-                    public void onSuccess(byte[] bytes) {
-                        // Use the bytes to display the image
-                        final Bitmap bitmap = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
+        final File file = new File(getApplicationContext().getFilesDir(), imgUrl);
+        File check = (this.getFilesDir());
+        boolean imgNotExists = true;
+        final File[] imgAr = check.listFiles();
 
-                        ivRepair.post(new Runnable() {
-                            @Override
-                            public void run() {
-                                Log.i("shitTest", "shitTestp");
-                                ivRepair.setImageBitmap(bitmap);
-                            }
-                        });
+        for (int i = 0; i < imgAr.length; i++) {
 
+            if (imgUrl.equals(imgAr[i].getName())) {
 
-                    }
-                }).addOnFailureListener(new OnFailureListener() {
-                    @Override
-                    public void onFailure(@NonNull Exception exception) {
-                        Log.i("shit", exception.getMessage());
-                    }
-                });
+                imgNotExists = false;
+
+                // iv.setImageBitmap(decodeSampledBitmap(imgAr[i].getName()));
+                //Toast.makeText(co, "image exists", Toast.LENGTH_SHORT).show();
+                // Bitmap bit = BitmapFactory.decodeFile(imgAr[i].getAbsolutePath());
+                //  viewHolder.im.setImageBitmap(bit);
+                ivRepair.setImageURI(Uri.parse(imgAr[i].getAbsolutePath()));
+                i = imgAr.length;
+
 
             }
-        });
+
+        }
+
+
+        if (imgNotExists) {
+            storageRef.child(ref).getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
+                @Override
+                public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
+                    Bitmap bit = BitmapFactory.decodeFile(file.getAbsolutePath());
+                    ivRepair.setImageBitmap(bit);
+                    Toast.makeText(scrollViewRepair.this, "download image", Toast.LENGTH_SHORT).show();
+
+
+                }
+
+
+            }).addOnFailureListener(new OnFailureListener() {
+                @Override
+                public void onFailure(@NonNull Exception e) {
+                    // Toast.makeText(co, "Failed to download image", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(scrollViewRepair.this, "Failed to download image" + e.getMessage(), Toast.LENGTH_SHORT).show();
+                }
+            });
+
+
+
+        }
 
         FloatingActionButton phone = (FloatingActionButton) findViewById(R.id.call);
         phone.setOnClickListener(new View.OnClickListener() {

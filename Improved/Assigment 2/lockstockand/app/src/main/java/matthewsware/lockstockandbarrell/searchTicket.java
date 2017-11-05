@@ -306,48 +306,57 @@ public class searchTicket extends AppCompatActivity
         if (id == R.id.nav_addRepair) {
 
             startActivity(new Intent(getApplicationContext(), addrepair.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
 
         } else if (id == R.id.nav_ViewRepairs) {
             startActivity(new Intent(getApplicationContext(), viewRepairs.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
 
         } else if (id == R.id.nav_repairs_date) {
             startActivity(new Intent(getApplicationContext(), searchDateRepair.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
         }else if (id == R.id.nav_name_search) {
             startActivity(new Intent(getApplicationContext(), nameSearch.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
         }
         else if(id==R.id.nav_phone_search) {
             startActivity(new Intent(getApplicationContext(), searchCellphone.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
 
         } else if(id==R.id.nav_ticket_search)
         {
             startActivity(new Intent(getApplicationContext(), searchTicket.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
 
 
         } else if (id == R.id.nav_login) {
             startActivity(new Intent(getApplicationContext(), login.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
 
         } else if (id == R.id.nav_signUp) {
             startActivity(new Intent(getApplicationContext(), signup.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
         }
         else if (id==R.id.nav_help)
         {
             startActivity(new Intent(getApplicationContext(), help.class));
+            finish();
             DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
             drawer.closeDrawer(GravityCompat.START);
         }
