@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="am.dx.varsityspecials.www.varsityspecials">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_restaurant_black_24dp"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC9jPdVyt5Y3FakAuPGXdMWZbxNgdi05JY" />
+
+        <activity
+            android:name=".splash"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".day" />
+        <activity android:name=".Location" />
+        <activity android:name=".signUp" />
+        <activity
+            android:name=".ScrollingActivity"
+            android:label="@string/title_activity_scrolling"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".days" />
+        <activity android:name=".Category" />
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".Welcome" />
+        <activity android:name=".updatePassword" />
+        <activity android:name=".DeleteUser" />
+        <activity
+            android:name=".navdays"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navsignup"
+            android:label="@string/title_activity_navsignup"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navcategory"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navday"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navdrawer"
+            android:label="@string/title_activity_navdrawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navwelcome"
+            android:label="@string/title_activity_navwelcome"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navdelete"
+            android:label="@string/title_activity_navdelete"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navresetpassword"
+            android:label="@string/title_activity_navresetpassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navsubmit"
+            android:label="@string/title_activity_navsubmit"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navcopyright"
+            android:label="@string/title_activity_navcopyright"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navQ1a"
+            android:label="@string/title_activity_nav_q1a"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navQ1B"
+            android:label="@string/title_activity_nav_q1_b"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Question1B" />
+        <activity android:name=".navlogin"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

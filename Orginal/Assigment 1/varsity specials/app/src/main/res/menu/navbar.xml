@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <group android:checkableBehavior="single">
+        <item  android:title="Welcome"
+            android:id="@+id/nav_welcome"
+            />
+
+
+        <item android:title="Question 1.1"
+            android:id="@+id/nav_question1"
+            />
+        <item android:title="Question 1.2"
+            android:id="@+id/nav_question1B"
+            />
+        <item  android:title="Question 2"
+            android:id="@+id/nav_login"
+            />
+        <item android:title="View Blog"
+            android:id="@+id/nav_viewBlog"
+            />
+        <item android:title="Post To Blog"
+            android:id="@+id/nav_addBlog"
+            />
+        <item android:title="Reset Password"
+            android:id="@+id/nav_resetPassword"
+            />
+        <item android:title="Delete User"
+            android:id="@+id/nav_deleteUser"
+            />
+
+    </group>
+
+
+
+</menu>

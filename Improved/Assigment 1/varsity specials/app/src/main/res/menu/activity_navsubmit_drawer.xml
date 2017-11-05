@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="1A"
+            android:id="@+id/nav_1a"
+            android:icon="@mipmap/ic_location_on_black_24dp"/>
+
+        <item android:title="1B"
+            android:id="@+id/nav_1B"
+            android:icon="@mipmap/ic_location_on_black_24dp"/>
+
+        <item android:title="View Specials (2)"
+            android:id="@+id/nav_specials"
+            android:icon="@mipmap/ic_dashboard_black_24dp"
+            />
+        <item android:title="Reset Password"
+            android:id="@+id/nav_resetPassword"
+            android:icon="@mipmap/ic_restore_black_24dp"
+            />
+        <item android:title="Delete User"
+            android:id="@+id/nav_deleteUser"
+            android:icon="@mipmap/ic_delete_sweep_black_24dp"
+            />
+        <item android:title="Submit a special"
+            android:id="@+id/nav_submit"
+            android:icon="@mipmap/ic_add_black_24dp"/>
+        <item android:title="Help"
+            android:id="@+id/nav_welcome"
+            android:icon="@mipmap/ic_help_outline_black_24dp"/>
+        <item android:title="Copyright"
+            android:id="@+id/nav_copyright"
+            android:icon="@mipmap/ic_copyright_black_24dp"/>
+    </group>
+
+
+</menu>

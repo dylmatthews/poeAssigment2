@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_navsubmit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="am.dx.varsityspecials.www.varsityspecials.navsubmit"
+    tools:showIn="@layout/app_bar_navsubmit"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/scrollsubmit"
+        android:layout_above="@+id/btnSubmitSub">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_Area"
+                android:layout_width="match_parent"
+
+                android:textColor="#ffff"
+                android:layout_height="match_parent">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ffff"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/etSubmitArea"
+                    android:layout_alignParentEnd="true"
+                    android:hint="Name of Area" />
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_Name_Of_Place"
+                android:layout_below="@id/input_layout_Area"
+                android:layout_width="match_parent"
+                android:textColor="#ffff"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:textColor="#ffff"
+                    android:ems="10"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/etSubmitNameOFPlace"
+                    android:layout_alignParentEnd="true"
+                    android:hint="Name of Restaurant" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_TOD"
+                android:layout_below="@id/input_layout_Name_Of_Place"
+                android:layout_width="match_parent"
+                android:textColor="#ffff"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:textColor="#ffff"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/etSubmitTOD"
+                    android:layout_alignParentEnd="true"
+                    android:hint="Time of day or actual time of special" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_DES"
+                android:layout_below="@id/input_layout_TOD"
+                android:layout_width="match_parent"
+                android:textColor="#ffff"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:textColor="#ffff"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/etSubmitDES"
+                    android:layout_alignParentEnd="true"
+                    android:hint="Description Of Special" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/input_layout_Address"
+                android:layout_below="@id/input_layout_DES"
+                android:layout_width="match_parent"
+                android:textColor="#ffff"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:textColor="#ffff"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:id="@+id/etSubmitAddress"
+                    android:layout_alignParentEnd="true"
+                    android:hint="Address" />
+
+
+            </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Select the day's of the week for the special you'd like to add"
+    android:layout_below="@id/input_layout_Address"
+        android:textColor="#ffff"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDOW"/>
+
+
+            <CheckBox
+        android:text="Tuesday"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbTuesday"
+        android:layout_alignBaseline="@+id/cbMonday"
+        android:layout_alignBottom="@+id/cbMonday"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:text="Wednesday"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbWednesday"
+        android:layout_below="@+id/cbMonday"
+        android:layout_alignStart="@+id/cbMonday"
+        android:layout_marginTop="19dp" />
+
+    <CheckBox
+        android:text="Thursday"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbThursday"
+        android:layout_below="@+id/cbTuesday"
+        android:layout_alignStart="@+id/cbTuesday"
+        android:layout_marginTop="19dp"/>
+
+    <CheckBox
+        android:text="Friday"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbFriday"
+        android:layout_below="@+id/cbWednesday"
+        android:layout_alignStart="@+id/cbMonday"
+        android:layout_marginTop="19dp" />
+    <CheckBox
+        android:text="Saturday"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbSaturday"
+        android:layout_below="@+id/cbThursday"
+        android:layout_alignStart="@+id/cbTuesday"
+        android:layout_marginTop="19dp" />
+
+
+    <CheckBox
+        android:text="Sunday"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbSunday"
+        android:layout_below="@+id/cbFriday"
+        android:layout_alignStart="@+id/cbMonday"
+        android:layout_marginTop="19dp" />
+
+
+
+
+            <CheckBox
+                android:text="Monday"
+                android:layout_width="wrap_content"
+                android:textColor="#ffff"
+                android:layout_height="wrap_content"
+                android:id="@+id/cbMonday"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/tvDOW"
+                android:layout_alignParentStart="true" />
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmitSub"
+        android:textColor="#ffff"
+        android:background="#000000"
+        android:onClick="onSubmitSpecial"
+        android:text="Submit"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

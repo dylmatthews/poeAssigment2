@@ -1,0 +1,1302 @@
+{
+  "Blog" : {
+    "-KrXRq8dRQZKCfzNJymB" : {
+      "desc" : "burger special was great",
+      "image" : "image:169171",
+      "title" : "Connor's public house",
+      "uid" : "MEdpjdGAHEZABQfFCiwWcVcdvA62"
+    },
+    "-KrfTgFmM6S53L90x_ln" : {
+      "desc" : "happy hour was great",
+      "image" : "image:167078",
+      "title" : "Wicked donuts",
+      "uid" : "MEdpjdGAHEZABQfFCiwWcVcdvA62"
+    },
+    "-KrlfBzQkkCHSPM3jW6o" : {
+      "desc" : "jdjjd",
+      "image" : "21969",
+      "title" : "hxjhd",
+      "uid" : "5zQfZuPa1DOIQCsaYJRsK83ilRo1"
+    },
+    "-KsbgAfCli66POv-_Y8Q" : {
+      "desc" : "steak",
+      "image" : "image:186466",
+      "title" : "mr mozzies",
+      "uid" : "MgfXnxvHCmPW6cCEb0OygqL2b112"
+    },
+    "-Kscc_bS71KH8GYmibbu" : {
+      "desc" : "top stuff",
+      "image" : "image:186270",
+      "title" : "mr mozzies",
+      "uid" : "MgfXnxvHCmPW6cCEb0OygqL2b112"
+    },
+    "-Kse5q__1-oLU2uikyzH" : {
+      "desc" : "the fish was great",
+      "image" : "image:186737",
+      "title" : "deep blue",
+      "uid" : "MgfXnxvHCmPW6cCEb0OygqL2b112"
+    }
+  },
+  "Durban North" : {
+    "1Monday" : {
+      "All Day" : {
+        "The Fish Plaice" : {
+          "Price" : "R146",
+          "description" : "Meal for 3#3 Hake filets, 1 large chips, 1 fish cake, 1 colestaw#R146",
+          "location" : "Almil Centre, 47 Ashley Ave, Glen Ashley",
+          "number" : "031 572 7959",
+          "time" : "All day"
+        }
+      },
+      "Deserts" : {
+        "Wicked Donuts" : {
+          "Price" : "Varies",
+          "description" : "Happy hour: half price Donuts",
+          "location" : "Durban North",
+          "number" : "0315633814",
+          "time" : "8pm - 9pm"
+        }
+      },
+      "Dinner" : {
+        "Connors public house" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected meals",
+          "location" : "11-13 Mackeurtan Ave, Durban North",
+          "number" : "031 563 4462",
+          "time" : "all day"
+        },
+        "Lookout bar and grill" : {
+          "Price" : "Varies",
+          "description" : "Half price pizza",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        },
+        "Woodstock" : {
+          "Price" : "R60",
+          "description" : "1/2 Chicken and chips#peri-peri or lemon and herb#R60",
+          "location" : "46 Ashley Avenue, Glenashley",
+          "number" : "072 630 2720",
+          "time" : "Lunch & Dinner"
+        }
+      },
+      "Lunch" : {
+        "Connors public house" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected meals",
+          "location" : "11-13 Mackeurtan Ave, Durban North",
+          "number" : "031 563 4462",
+          "time" : "all day"
+        },
+        "Deep Blue Fish co" : {
+          "Price" : "R30",
+          "description" : "Lunch Time Special: Hake & Chips - R30",
+          "location" : "Shop 1 Arcadia Centre, 87 Umhlanga Rocks Drive, Durban North Durban North",
+          "number" : "0314612530",
+          "time" : "11:00am - 2:00 pm"
+        },
+        "Lookout bar and grill" : {
+          "Price" : "Varies",
+          "description" : "Half price pizza",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        },
+        "Woodstock" : {
+          "Price" : "R60",
+          "description" : "1/2 Chicken and chips#peri-peri or lemon and herb#R60",
+          "location" : "46 Ashley Avenue, Glenashley",
+          "number" : "072 630 2720",
+          "time" : "Lunch & Dinner"
+        }
+      },
+      "Meat Supplies" : {
+        "Mr Mozzies" : {
+          "Price" : "R80/KG",
+          "description" : "Rump steak R80/KG",
+          "location" : "Shop 25, La Lucia Mall, William Campbell Dr, La Lucia",
+          "number" : "031 572 2670",
+          "time" : "Working Hours"
+        }
+      },
+      "Student Specials" : {
+        "Riverside Spur" : {
+          "Price" : "Varies",
+          "description" : "Student menu (student card required)#Waffle combo (Waffle and milkshake)- R30#Wrap and soda - R49.90#Nachos (starter portion) - R44.90#Burger and soda - R49.90#Steak (150g) and soda - R49.90",
+          "location" : "Durban North",
+          "number" : "0315611662",
+          "time" : "During working hours before 5 pm and not on public holidays and during holidays"
+        }
+      }
+    },
+    "2Tuesday" : {
+      "All Day" : {
+        "Bite Your tongue" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi",
+          "location" : "62 Astra Centre Adelaide Tambo Drive Broadway, Durban North Kwazulu-Natal",
+          "number" : "031 563 4419",
+          "time" : "All day"
+        },
+        "Pasha's" : {
+          "Price" : "R120",
+          "description" : "Two large Passionate Pizzas - R120",
+          "location" : "37 Newport Ave, Glen Ashley, Durban",
+          "number" : "031 562 0567",
+          "time" : "Working hours"
+        },
+        "The Fish Plaice" : {
+          "Price" : "R53",
+          "description" : "Calamari and chips/rice and sauce#R53",
+          "location" : "Almil Centre, 47 Ashley Ave, Glen Ashley",
+          "number" : "031 572 7959",
+          "time" : "All day"
+        }
+      },
+      "Deserts" : {
+        "Wicked Donuts" : {
+          "Price" : "Varies",
+          "description" : "Happy hour: half price Donuts",
+          "location" : "Durban North",
+          "number" : "0315633814",
+          "time" : "8pm - 9pm"
+        }
+      },
+      "Dinner" : {
+        "Connors public house" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected meals",
+          "location" : "11-13 Mackeurtan Ave, Durban North`",
+          "number" : "031 563 4462",
+          "time" : "All day"
+        },
+        "Lookout bar and grill " : {
+          "Price" : "R59",
+          "description" : "Hake and Chips R59",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        },
+        "Ton Hoi Chinese Restaurant And Take Away" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi",
+          "location" : "37B Newport Ave, Glen Ashley",
+          "number" : "031 562 9933",
+          "time" : "11:30am - 12:30pm, 4:30 pm - 9:30 pm"
+        },
+        "Woodstock" : {
+          "Price" : "Varies",
+          "description" : "Ladies night#1/2 price on meals#Ladies dinning with ladies",
+          "location" : "46 Ashley Avenue, Glenashley",
+          "number" : "072 630 2720",
+          "time" : "Dinner"
+        }
+      },
+      "Lunch" : {
+        "Connors public house" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected meals",
+          "location" : "11-13 Mackeurtan Ave, Durban North`",
+          "number" : "031 563 4462",
+          "time" : "All day"
+        },
+        "Deep Blue Fish co" : {
+          "Price" : "R30",
+          "description" : "Lunch Time Special: Hake & Chips - R30",
+          "location" : "Shop 1 Arcadia Centre, 87 Umhlanga Rocks Drive, Durban North Durban North",
+          "number" : "0314612530",
+          "time" : "11:00am - 2:00 pm"
+        },
+        "Lookout bar and grill " : {
+          "Price" : "R59",
+          "description" : "Hake and Chips R59",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        },
+        "Ton Hoi Chinese Restaurant And Take Away" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi",
+          "location" : "37B Newport Ave, Glen Ashley",
+          "number" : "031 562 9933",
+          "time" : "11:30am - 12:30pm, 4:30 pm - 9:30 pm"
+        },
+        "Woodstock" : {
+          "Price" : "R50",
+          "description" : "Fish and Chips#R50",
+          "location" : "46 Ashley Avenue, Glenashley",
+          "number" : "072 630 2720",
+          "time" : "Lunch"
+        }
+      },
+      "Meat" : {
+        "Mr Mozzies" : {
+          "Price" : "R80/KG",
+          "description" : "Rump steak R80/KG",
+          "location" : "Shop 25, La Lucia Mall, William Campbell Dr, La Lucia",
+          "number" : "031 572 2670",
+          "time" : "Working Hours"
+        }
+      },
+      "Student Specials" : {
+        "Riverside Spur" : {
+          "Price" : "Varies",
+          "description" : "Student menu (student card required)#Waffle combo (Waffle and milkshake)- R30#Wrap and soda - R49.90#Nachos (starter portion) - R44.90#Burger and soda - R49.90#Steak (150g) and soda - R49.90",
+          "location" : "Durban North",
+          "number" : "0315611662",
+          "time" : "During working hours before 5 pm and not on public holidays and during holidays"
+        }
+      }
+    },
+    "3Wednesday" : {
+      "All Day" : {
+        "Pasha's" : {
+          "Price" : "R79",
+          "description" : "Two Plain Burgers And Chips R 79-00 #Or With Choice Of Sauce R 89-00",
+          "location" : "37 Newport Ave, Glen Ashley",
+          "number" : "031 562 0567",
+          "time" : "All day"
+        },
+        "The Fish Plaice" : {
+          "Price" : "R71",
+          "description" : "Hake and prawn combo#R71",
+          "location" : "Almil Centre, 47 Ashley Ave, Glen Ashley",
+          "number" : "031 572 7959",
+          "time" : "All day"
+        }
+      },
+      "Deserts" : {
+        "Wicked Donuts" : {
+          "Price" : "Varies",
+          "description" : "Happy hour: half price Donuts",
+          "location" : "Durban North",
+          "number" : "0315633814",
+          "time" : "8pm - 9pm"
+        }
+      },
+      "Dinner" : {
+        "Lookout bar and grill" : {
+          "Price" : "R79",
+          "description" : "Eisbein 1KG and chips - R79",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        }
+      },
+      "Lunch" : {
+        "Deep Blue Fish co" : {
+          "Price" : "R30",
+          "description" : "Lunch Time Special: Hake & Chips - R30",
+          "location" : "Shop 1 Arcadia Centre, 87 Umhlanga Rocks Drive, Durban North Durban North",
+          "number" : "0314612530",
+          "time" : "11:00am - 2:00 pm"
+        },
+        "Lookout bar and grill" : {
+          "Price" : "R79",
+          "description" : "Eisbein 1KG and chips - R79",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        },
+        "Woodstock" : {
+          "Price" : "R65",
+          "description" : "Burger and chips#Plus a beer#R65",
+          "location" : "46 Ashley Avenue, Glenashley",
+          "number" : "072 630 2720",
+          "time" : "Lunch"
+        }
+      },
+      "Meat" : {
+        "Mr Mozzies" : {
+          "Price" : "R80/KG",
+          "description" : "Rump steak R80/KG",
+          "location" : "Shop 25, La Lucia Mall, William Campbell Dr, La Lucia",
+          "number" : "031 572 2670",
+          "time" : "Working Hours"
+        }
+      },
+      "Pub Drinks" : {
+        "Connors public house" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected cocktails from 5pm & R15 shots",
+          "location" : "11-13 Mackeurtan Ave, Durban North",
+          "number" : "031 563 4462",
+          "time" : "from 5pm"
+        }
+      },
+      "Student Specials" : {
+        "Riverside Spur" : {
+          "Price" : "Varies",
+          "description" : "Student menu (student card required)#Waffle combo (Waffle and milkshake)- R30#Wrap and soda - R49.90#Nachos (starter portion) - R44.90#Burger and soda - R49.90#Steak (150g) and soda - R49.90",
+          "location" : "Durban North",
+          "number" : "0315611662",
+          "time" : "During working hours before 5 pm and not on public holidays and during holidays"
+        }
+      }
+    },
+    "4Thursday" : {
+      "All Day" : {
+        "Bite Your tongue" : {
+          "Price" : "Varies",
+          "description" : "Half Price Sushi",
+          "location" : "62B Astra Centre Kensington Rd, Durban, South Africa",
+          "number" : "031 563 4419",
+          "time" : "All day"
+        },
+        "Pasha's" : {
+          "Price" : "R95",
+          "description" : "Any two Posh Pastas - R95",
+          "location" : "37 Newport Ave, Glen Ashley, Durban",
+          "number" : "031 562 0567",
+          "time" : "Working hours"
+        },
+        "The Fish Plaice" : {
+          "Price" : "R97",
+          "description" : "Housewives special (2 hake fillets, 1 large chips, 1 coleslaw)#R97",
+          "location" : "Almil Centre, 47 Ashley Ave, Glen Ashley",
+          "number" : "031 572 7959",
+          "time" : "All day"
+        }
+      },
+      "Deserts" : {
+        "Wicked Donuts" : {
+          "Price" : "Varies",
+          "description" : "Happy hour: half price Donuts",
+          "location" : "Durban North",
+          "number" : "0315633814",
+          "time" : "8pm - 9pm"
+        }
+      },
+      "Dinner" : {
+        "Connors public house" : {
+          "Price" : "R65",
+          "description" : "Any burger and Windhoek Draught or Strongbow Cider",
+          "location" : "11-13 Mackeurtan Ave, Durban North",
+          "number" : "031 563 4462",
+          "time" : "all day"
+        },
+        "Lookout bar and grill" : {
+          "Price" : "Varies",
+          "description" : "Ribs and Chips#500g R85#1kg R139",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        },
+        "Ton Hoi Chinese Restaurant And Take Away" : {
+          "Deep Blue Fish co" : {
+            "Price" : "R30",
+            "description" : "Lunch Time Special: Hake & Chips - R30",
+            "location" : "Shop 1 Arcadia Centre, 87 Umhlanga Rocks Drive, Durban North Durban North",
+            "number" : "0314612530",
+            "time" : "11:00am - 2:00 pm"
+          },
+          "Lookout bar and grill" : {
+            "Price" : "Varies",
+            "description" : "Ribs and Chips#500g R85#1kg R139",
+            "location" : "36 Newport Avenue Durban",
+            "number" : "031 562 1415",
+            "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+          },
+          "Price" : "Varies",
+          "Ton Hoi Chinese Restaurant And Take Away" : {
+            "Price" : "Varies",
+            "description" : "Half price sushi",
+            "location" : "37B Newport Ave, Glen Ashley,",
+            "number" : "031 562 9933",
+            "time" : "11:30am - 12:30pm, 4:30 pm - 9:30 pm"
+          },
+          "Woodstock" : {
+            "Price" : "R60",
+            "description" : "Steak Egg and Chips#R60",
+            "location" : "46 Ashley Avenue, Glenashley",
+            "number" : "072 630 2720",
+            "time" : "Lunch"
+          },
+          "description" : "Half price sushi",
+          "location" : "37B Newport Ave, Glen Ashley,",
+          "number" : "031 562 9933",
+          "time" : "11:30am - 12:30pm, 4:30 pm - 9:30 pm"
+        }
+      },
+      "Lunch" : {
+        "Connors public house" : {
+          "Price" : "R65",
+          "description" : "Any burger and Windhoek Draught or Strongbow Cider",
+          "location" : "11-13 Mackeurtan Ave, Durban North",
+          "number" : "031 563 4462",
+          "time" : "all day"
+        },
+        "Ton Hoi Chinese Restaurant And Take Away" : {
+          "Deep Blue Fish co" : {
+            "Price" : "R30",
+            "description" : "Lunch Time Special: Hake & Chips - R30",
+            "location" : "Shop 1 Arcadia Centre, 87 Umhlanga Rocks Drive, Durban North Durban North",
+            "number" : "0314612530",
+            "time" : "11:00am - 2:00 pm"
+          },
+          "Lookout bar and grill" : {
+            "Price" : "Varies",
+            "description" : "Ribs and Chips#500g R85#1kg R139",
+            "location" : "36 Newport Avenue Durban",
+            "number" : "031 562 1415",
+            "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+          },
+          "Price" : "Varies",
+          "Ton Hoi Chinese Restaurant And Take Away" : {
+            "Price" : "Varies",
+            "description" : "Half price sushi",
+            "location" : "37B Newport Ave, Glen Ashley,",
+            "number" : "031 562 9933",
+            "time" : "11:30am - 12:30pm, 4:30 pm - 9:30 pm"
+          },
+          "Woodstock" : {
+            "Price" : "R60",
+            "description" : "Steak Egg and Chips#R60",
+            "location" : "46 Ashley Avenue, Glenashley",
+            "number" : "072 630 2720",
+            "time" : "Lunch"
+          },
+          "description" : "Half price sushi",
+          "location" : "37B Newport Ave, Glen Ashley,",
+          "number" : "031 562 9933",
+          "time" : "11:30am - 12:30pm, 4:30 pm - 9:30 pm"
+        }
+      },
+      "Meat" : {
+        "Mr Mozzies" : {
+          "Price" : "R80/KG",
+          "description" : "Rump steak R80/KG",
+          "location" : "Shop 25, La Lucia Mall, William Campbell Dr, La Lucia",
+          "number" : "031 572 2670",
+          "time" : "Working Hours"
+        }
+      },
+      "Student Specials" : {
+        "Riverside Spur" : {
+          "Price" : "Varies",
+          "description" : "Student menu (student card required)#Waffle combo (Waffle and milkshake)- R30#Wrap and soda - R49.90#Nachos (starter portion) - R44.90#Burger and soda - R49.90#Steak (150g) and soda - R49.90",
+          "location" : "Durban North",
+          "number" : "0315611662",
+          "time" : "During working hours before 5 pm and not on public holidays and during holidays"
+        }
+      }
+    },
+    "5Friday" : {
+      "Deserts" : {
+        "Wicked Donuts" : {
+          "Price" : "Varies",
+          "description" : "Happy hour: half price Donuts",
+          "location" : "Durban North",
+          "number" : "0315633814",
+          "time" : "8pm - 9pm"
+        }
+      },
+      "Lunch" : {
+        "Woodstock" : {
+          "Price" : "R55",
+          "description" : "Pulled Pork Burger and Chips#R55",
+          "location" : "46 Ashley Avenue, Glenashley",
+          "number" : "072 630 2720",
+          "time" : "Lunch"
+        }
+      },
+      "Meat" : {
+        "Mr Mozzies" : {
+          "Price" : "R80/KG",
+          "description" : "Rump steak R80/KG",
+          "location" : "Shop 25, La Lucia Mall, William Campbell Dr, La Lucia",
+          "number" : "031 572 2670",
+          "time" : "Working Hours"
+        }
+      },
+      "Sea Food" : {
+        "Deep Blue Fish co" : {
+          "Price" : "R30",
+          "description" : "Lunch Time Special: Hake & Chips - R30",
+          "location" : "Shop 1 Arcadia Centre, 87 Umhlanga Rocks Drive, Durban North Durban North",
+          "number" : "0314612530",
+          "time" : "11:00am - 2:00 pm"
+        },
+        "The Fish Plaice" : {
+          "Price" : "R53",
+          "description" : "Large hake and chips#R53",
+          "location" : "Almil Centre, 47 Ashley Ave, Glen Ashley",
+          "number" : "031 572 7959",
+          "time" : "All day"
+        }
+      },
+      "Student Specials" : {
+        "Riverside Spur" : {
+          "Price" : "Varies",
+          "description" : "Student menu (student card required)#Waffle combo (Waffle and milkshake)- R30#Wrap and soda - R49.90#Nachos (starter portion) - R44.90#Burger and soda - R49.90#Steak (150g) and soda - R49.90",
+          "location" : "Durban North",
+          "number" : "0315611662",
+          "time" : "During working hours before 5 pm and not on public holidays and during holidays"
+        }
+      }
+    },
+    "6Saturday" : {
+      "Deserts" : {
+        "Wicked Donuts" : {
+          "Price" : "Varies",
+          "description" : "Happy hour: half price Donuts",
+          "location" : "Durban North",
+          "number" : "0315633814",
+          "time" : "8pm - 9pm"
+        }
+      },
+      "Meat" : {
+        "Mr Mozzies" : {
+          "Price" : "R80/KG",
+          "description" : "Rump steak R80/KG",
+          "location" : "Shop 25, La Lucia Mall, William Campbell Dr, La Lucia",
+          "number" : "031 572 2670",
+          "time" : "Working Hours"
+        }
+      },
+      "Pub Food and Drinks" : {
+        "Connors public house" : {
+          "Price" : "R86",
+          "description" : "Rack of ribs with either Windoek Draught or Strongbow Cider",
+          "location" : "11-13 Mackeurtan Ave, Durban North",
+          "number" : "031 563 4462",
+          "time" : "All day"
+        }
+      },
+      "Sea Food" : {
+        "The Fish Plaice" : {
+          "Price" : "R67",
+          "description" : "Hake and calamari special#R67",
+          "location" : "Almil Centre, 47 Ashley Ave, Glen Ashley",
+          "number" : "031 572 7959",
+          "time" : "All day"
+        }
+      }
+    },
+    "7Sunday" : {
+      "All Day" : {
+        "Pasha's" : {
+          "Price" : "R250",
+          "description" : "Sunday Family Special: Two large Passionate Pizzas and Two Posh pastas - R250",
+          "location" : "37 Newport Ave, Glen Ashley, Durban",
+          "number" : "031 562 0567",
+          "time" : "All day"
+        },
+        "The Fish Plaice" : {
+          "Price" : "R86",
+          "description" : "Grilled prawns and rice#R86",
+          "location" : "Almil Centre, 47 Ashley Ave, Glen Ashley",
+          "number" : "031 572 7959",
+          "time" : "All day"
+        }
+      },
+      "Deserts" : {
+        "Wicked Donuts" : {
+          "Price" : "Varies",
+          "description" : "Happy hour: half price Donuts",
+          "location" : "Durban North",
+          "number" : "0315633814",
+          "time" : "8pm - 9pm"
+        }
+      },
+      "Meat" : {
+        "Mr Mozzies" : {
+          "Price" : "R80/KG",
+          "description" : "Rump steak R80/KG",
+          "location" : "Shop 25, La Lucia Mall, William Campbell Dr, La Lucia",
+          "number" : "031 572 2670",
+          "time" : "Working Hours"
+        }
+      }
+    }
+  },
+  "Umhlanga" : {
+    "1Monday" : {
+      "All Day" : {
+        "Cape Town fish market" : {
+          "Price" : "Varies",
+          "description" : "Specific to the Monday Special:#Hake options are between grilled or deep-fried hake.#Hake and chips 200g - R50 #Hake and chips 280g - R65#ANY BURGER (beef, chicken or fish burger) (served with chips and onion rings) for only R50. All day long",
+          "location" : " Gateway Theatre of Shopping 1 Umhlanga, 1 Palm Blvd, Umhlanga Rocks, Durban",
+          "number" : "031 566 4432",
+          "time" : "All day"
+        },
+        "Col'Cacchio Pizzeria - Gateway " : {
+          "Price" : "Varies",
+          "description" : "Buy any Gourmet Pizza and get the second one free. (Cheapest One Free)#Ends 31 August",
+          "location" : "Shop G320, Gateway Centre, 1 Palm Blvd, Umhlanga Ridge, Durban",
+          "number" : "031 584 6822",
+          "time" : "All day"
+        },
+        "Dros" : {
+          "Price" : "R29.95",
+          "description" : "Dros 160g plain beef burger and chips#R29.95",
+          "location" : "Gateway",
+          "number" : "031 566 4111",
+          "time" : "All day"
+        },
+        "Mimmos" : {
+          "Price" : "R109.90",
+          "description" : "Any 2 Large Classic Pizzas at R109.90 or Any 2 Classic Pastas at R109.90#Classic Pizzas: Margherita, Regina, Hawaiian, Four Seasons, BBQ Chicken, Spare Rib Pizza, Mexicana, Vegetarian, Chicken Mayo Pizza, Pepperoni, Tikka Chicken #Classic Pastas: Napoletana, Mariannas, Bolognaise, Alfredo (Ham or Chicken), Mexicana, Gabriella",
+          "location" : "Shop #G016Palm BoulevardGateway",
+          "number" : "031 566 4112",
+          "time" : "All day"
+        },
+        "The Fish Plaice" : {
+          "Price" : "R146",
+          "description" : "Meal for 3#3 Hake filets, 1 large chips, 1 fish cake, 1 colestaw#R146",
+          "location" : "Almil Centre, 47 Ashley Ave, Glen Ashley",
+          "number" : "031 572 7959",
+          "time" : "All day"
+        }
+      },
+      "Deserts" : {
+        "Wicked Donuts" : {
+          "Price" : "Varies",
+          "description" : "Happy hour: half price Donuts",
+          "location" : "Gateway",
+          "number" : "0315633814",
+          "time" : " 9pm - 10pm"
+        }
+      },
+      "Dinner" : {
+        "Connors public house" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected meals",
+          "location" : "11-13 Mackeurtan Ave, Durban North",
+          "number" : "031 563 4462",
+          "time" : "all day"
+        },
+        "Lookout bar and grill" : {
+          "Price" : "Varies",
+          "description" : "Half price pizza",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        },
+        "Woodstock" : {
+          "Price" : "R60",
+          "description" : "1/2 Chicken and chips#peri-peri or lemon and herb#R60",
+          "location" : "46 Ashley Avenue, Glenashley",
+          "number" : "072 630 2720",
+          "time" : "Lunch & Dinner"
+        }
+      },
+      "Lunch" : {
+        "Beluga" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi!",
+          "location" : "Gateway",
+          "number" : "031 584 7430",
+          "time" : "12pm – 7pm"
+        },
+        "Connors public house" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected meals",
+          "location" : "11-13 Mackeurtan Ave, Durban North",
+          "number" : "031 563 4462",
+          "time" : "all day"
+        },
+        "Deep Blue Fish co" : {
+          "Price" : "R30",
+          "description" : "Lunch Time Special: Hake & Chips - R30",
+          "location" : "Shop 1 Arcadia Centre, 87 Umhlanga Rocks Drive, Durban North Durban North",
+          "number" : "0314612530",
+          "time" : "11:00am - 2:00 pm"
+        },
+        "Lookout bar and grill" : {
+          "Price" : "Varies",
+          "description" : "Half price pizza",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        },
+        "Tatum's at Caffe Italia" : {
+          "Price" : "R49",
+          "description" : "Beef Smash Burger & Chips R49.00#Chicken Burger & Chips R49.00 ",
+          "location" : "Shop 6 Ilala Ridge Shopping Centre, 4019, 2 ILALA Dr, La Lucia",
+          "number" : "031 572 5670",
+          "time" : "Lunch Time"
+        },
+        "Woodstock" : {
+          "Price" : "R60",
+          "description" : "1/2 Chicken and chips#peri-peri or lemon and herb#R60",
+          "location" : "46 Ashley Avenue, Glenashley",
+          "number" : "072 630 2720",
+          "time" : "Lunch & Dinner"
+        }
+      },
+      "Pub Food and Drinks" : {
+        "Drop kick murphy's" : {
+          "Price" : "Varies",
+          "description" : "Lunch Special: Beef or Chicken burger and fruit juice for R49. Chicken salad and fruit juice R39",
+          "location" : "219 Florida Road Durban, KwaZulu-Natal",
+          "number" : "031 825 1858",
+          "time" : "12:00pm - 3:00pm"
+        },
+        "Hudsons Burger Joint" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected offerings! Selected appetizers, draughts and cocktails are half priced!",
+          "location" : "CNR LIGHTHOUSE & CHARTWELL DRIVE, UMHLANGA",
+          "number" : "031 561 1662",
+          "time" : "4:30pm - 6:30pm"
+        }
+      },
+      "Student Specials" : {
+        "Riverside Spur" : {
+          "Price" : "Varies",
+          "description" : "Student menu (student card required)#Waffle combo (Waffle and milkshake)- R30#Wrap and soda - R49.90#Nachos (starter portion) - R44.90#Burger and soda - R49.90#Steak (150g) and soda - R49.90",
+          "location" : "Durban North",
+          "number" : "0315611662",
+          "time" : "During working hours before 5 pm and not on public holidays and during holidays"
+        }
+      }
+    },
+    "2Tuesday" : {
+      "All Day" : {
+        "Bite Your tongue" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi",
+          "location" : "62 Astra Centre Adelaide Tambo Drive Broadway, Durban North Kwazulu-Natal",
+          "number" : "031 563 4419",
+          "time" : "All day"
+        },
+        "John Dory's" : {
+          "Price" : "Varies",
+          "description" : "Single fish and chips R39#Double fish and chips R65",
+          "location" : "Gateway",
+          "number" : "031-566 3334",
+          "time" : "All day"
+        },
+        "Mimmos" : {
+          "Price" : "R109.90",
+          "description" : "Any 2 Large Classic Pizzas at R109.90 or Any 2 Classic Pastas at R109.90#Classic Pizzas: Margherita, Regina, Hawaiian, Four Seasons, BBQ Chicken, Spare Rib Pizza, Mexicana, Vegetarian, Chicken Mayo Pizza, Pepperoni, Tikka Chicken #Classic Pastas: Napoletana, Mariannas, Bolognaise, Alfredo (Ham or Chicken), Mexicana, Gabriella",
+          "location" : "Shop #G016 Palm Boulevard Gateway",
+          "number" : "031 566 4112",
+          "time" : "All day"
+        },
+        "Pasha's" : {
+          "Price" : "R120",
+          "description" : "Two large Passionate Pizzas - R120",
+          "location" : "37 Newport Ave, Glen Ashley, Durban",
+          "number" : "031 562 0567",
+          "time" : "Working hours"
+        },
+        "The Fish Plaice" : {
+          "Price" : "R53",
+          "description" : "Calamari and chips/rice and sauce#R53",
+          "location" : "Almil Centre, 47 Ashley Ave, Glen Ashley",
+          "number" : "031 572 7959",
+          "time" : "All day"
+        }
+      },
+      "Deserts" : {
+        "Wicked Donuts" : {
+          "Price" : "Varies",
+          "description" : "Happy hour: half price Donuts",
+          "location" : "Gateway",
+          "number" : "0315633814",
+          "time" : " 9pm - 10pm"
+        }
+      },
+      "Dinner" : {
+        "Connors public house" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected meals",
+          "location" : "11-13 Mackeurtan Ave, Durban North`",
+          "number" : "031 563 4462",
+          "time" : "All day"
+        },
+        "Hudsons Burger Joint" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected offerings! Selected appetizers, draughts and cocktails are half priced!",
+          "location" : "CNR LIGHTHOUSE & CHARTWELL DRIVE, UMHLANGA",
+          "number" : "031 561 1662",
+          "time" : "4:30pm - 6:30pm"
+        },
+        "Lookout bar and grill " : {
+          "Price" : "R59",
+          "description" : "Hake and Chips R59",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        },
+        "Ton Hoi Chinese Restaurant And Take Away" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi",
+          "location" : "37B Newport Ave, Glen Ashley",
+          "number" : "031 562 9933",
+          "time" : "11:30am - 12:30pm, 4:30 pm - 9:30 pm"
+        },
+        "Woodstock" : {
+          "Price" : "Varies",
+          "description" : "Ladies night#1/2 price on meals#Ladies dinning with ladies",
+          "location" : "46 Ashley Avenue, Glenashley",
+          "number" : "072 630 2720",
+          "time" : "Dinner"
+        }
+      },
+      "Lunch" : {
+        "Beluga" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi!",
+          "location" : "Gateway",
+          "number" : "031 584 7430",
+          "time" : "12pm – 7pm"
+        },
+        "Connors public house" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected meals",
+          "location" : "11-13 Mackeurtan Ave, Durban North`",
+          "number" : "031 563 4462",
+          "time" : "All day"
+        },
+        "Deep Blue Fish co" : {
+          "Price" : "R30",
+          "description" : "Lunch Time Special: Hake & Chips - R30",
+          "location" : "Shop 1 Arcadia Centre, 87 Umhlanga Rocks Drive, Durban North Durban North",
+          "number" : "0314612530",
+          "time" : "11:00am - 2:00 pm"
+        },
+        "Drop kick murphy's" : {
+          "Price" : "Varies",
+          "description" : "Lunch Special: Beef or Chicken burger and fruit juice for R49. Chicken salad and fruit juice R39",
+          "location" : "219 Florida Road Durban, KwaZulu-Natal",
+          "number" : "031 825 1858",
+          "time" : "12:00pm - 3:00pm"
+        },
+        "Lookout bar and grill " : {
+          "Price" : "R59",
+          "description" : "Hake and Chips R59",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        },
+        "Tatum's at Caffe Italia" : {
+          "Price" : "R49",
+          "description" : "Club Tramezzini (Chicken, mayo, mozzarella, bacon, lettuce, tomato)#R49.00 ",
+          "location" : " Shop 6, Ilala Ridge Shopping Centre, 2 Ilala Drive Durban",
+          "number" : "031 572 5670",
+          "time" : "Lunch"
+        },
+        "Ton Hoi Chinese Restaurant And Take Away" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi",
+          "location" : "37B Newport Ave, Glen Ashley",
+          "number" : "031 562 9933",
+          "time" : "11:30am - 12:30pm, 4:30 pm - 9:30 pm"
+        },
+        "Woodstock" : {
+          "Price" : "R50",
+          "description" : "Fish and Chips#R50",
+          "location" : "46 Ashley Avenue, Glenashley",
+          "number" : "072 630 2720",
+          "time" : "Lunch"
+        }
+      },
+      "Student Specials" : {
+        "Riverside Spur" : {
+          "Price" : "Varies",
+          "description" : "Student menu (student card required)#Waffle combo (Waffle and milkshake)- R30#Wrap and soda - R49.90#Nachos (starter portion) - R44.90#Burger and soda - R49.90#Steak (150g) and soda - R49.90",
+          "location" : "Durban North",
+          "number" : "0315611662",
+          "time" : "During working hours before 5 pm and not on public holidays and during holidays"
+        }
+      }
+    },
+    "3Wednesday" : {
+      "All Day" : {
+        "John Dory" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi",
+          "location" : "Gateway",
+          "number" : "031 566 3334",
+          "time" : "All day"
+        },
+        "The Fish Plaice" : {
+          "Price" : "R71",
+          "description" : "Hake and prawn combo#R71",
+          "location" : "Almil Centre, 47 Ashley Ave, Glen Ashley",
+          "number" : "031 572 7959",
+          "time" : "All day"
+        }
+      },
+      "Deserts" : {
+        "Wicked Donuts" : {
+          "Price" : "Varies",
+          "description" : "Happy hour: half price Donuts",
+          "location" : "Gateway",
+          "number" : "0315633814",
+          "time" : " 9pm - 10pm"
+        }
+      },
+      "Dinner" : {
+        "Hudsons Burger Joint" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected offerings! Selected appetizers, draughts and cocktails are half priced!",
+          "location" : "CNR LIGHTHOUSE & CHARTWELL DRIVE, UMHLANGA",
+          "number" : "031 561 1662",
+          "time" : "4:30pm - 6:30pm"
+        },
+        "Lookout bar and grill" : {
+          "Price" : "R79",
+          "description" : "Eisbein 1KG and chips - R79",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        }
+      },
+      "Lunch" : {
+        "Beluga" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi!",
+          "location" : "Gateway",
+          "number" : "031 584 7430",
+          "time" : "12pm – 7pm"
+        },
+        "Deep Blue Fish co" : {
+          "Price" : "R30",
+          "description" : "Lunch Time Special: Hake & Chips - R30",
+          "location" : "Shop 1 Arcadia Centre, 87 Umhlanga Rocks Drive, Durban North Durban North",
+          "number" : "0314612530",
+          "time" : "11:00am - 2:00 pm"
+        },
+        "Drop kick murphy's" : {
+          "Price" : "Varies",
+          "description" : "Lunch Special: Beef or Chicken burger and fruit juice for R49. Chicken salad and fruit juice R39",
+          "location" : "219 Florida Road Durban, KwaZulu-Natal",
+          "number" : "031 825 1858",
+          "time" : "12:00pm - 3:00pm"
+        },
+        "Lookout bar and grill" : {
+          "Price" : "R79",
+          "description" : "Eisbein 1KG and chips - R79",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        },
+        "Tatum's at Caffe Italia" : {
+          "Price" : "R49",
+          "description" : "Lasagne & Salad#R49.00 ",
+          "location" : " Shop 6, Ilala Ridge Shopping Centre, 2 Ilala Drive Durban",
+          "number" : "031 572 5670",
+          "time" : "Lunch"
+        },
+        "Woodstock" : {
+          "Price" : "R65",
+          "description" : "Burger and chips#Plus a beer#R65",
+          "location" : "46 Ashley Avenue, Glenashley",
+          "number" : "072 630 2720",
+          "time" : "Lunch"
+        }
+      },
+      "Pub Drinks" : {
+        "Connors public house" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected cocktails from 5pm & R15 shots",
+          "location" : "11-13 Mackeurtan Ave, Durban North",
+          "number" : "031 563 4462",
+          "time" : "from 5pm"
+        },
+        "Drop kick murphy's" : {
+          "Price" : "R99",
+          "description" : "Choice of three fishbowls for R99 each",
+          "location" : "219 Florida Road Durban, KwaZulu-Natal",
+          "number" : "031 825 1858",
+          "time" : "6 - 10 pm"
+        }
+      },
+      "Student Specials" : {
+        "Riverside Spur" : {
+          "Price" : "Varies",
+          "description" : "Student menu (student card required)#Waffle combo (Waffle and milkshake)- R30#Wrap and soda - R49.90#Nachos (starter portion) - R44.90#Burger and soda - R49.90#Steak (150g) and soda - R49.90",
+          "location" : "Durban North",
+          "number" : "0315611662",
+          "time" : "During working hours before 5 pm and not on public holidays and during holidays"
+        }
+      }
+    },
+    "4Thursday" : {
+      "All Day" : {
+        "Bite Your tongue" : {
+          "Price" : "Varies",
+          "description" : "Half Price Sushi",
+          "location" : "62B Astra Centre Kensington Rd, Durban, South Africa",
+          "number" : "031 563 4419",
+          "time" : "All day"
+        },
+        "Dros" : {
+          "Price" : "R34.95",
+          "description" : "Calamari 300g with chips/rice#R34.95",
+          "location" : "Gateway",
+          "number" : "031 566 4111",
+          "time" : "All day"
+        },
+        "Pasha's" : {
+          "Price" : "R95",
+          "description" : "Any two Posh Pastas - R95",
+          "location" : "37 Newport Ave, Glen Ashley, Durban",
+          "number" : "031 562 0567",
+          "time" : "Working hours"
+        },
+        "The Fish Plaice" : {
+          "Price" : "R97",
+          "description" : "Housewives special (2 hake fillets, 1 large chips, 1 coleslaw)#R97",
+          "location" : "Almil Centre, 47 Ashley Ave, Glen Ashley",
+          "number" : "031 572 7959",
+          "time" : "All day"
+        }
+      },
+      "Deserts" : {
+        "Wicked Donuts" : {
+          "Price" : "Varies",
+          "description" : "Happy hour: half price Donuts",
+          "location" : "Durban North",
+          "number" : "0315633814",
+          "time" : "8pm - 9pm"
+        }
+      },
+      "Dinner" : {
+        "Connors public house" : {
+          "Price" : "R65",
+          "description" : "Any burger and Windhoek Draught or Strongbow Cider",
+          "location" : "11-13 Mackeurtan Ave, Durban North",
+          "number" : "031 563 4462",
+          "time" : "all day"
+        },
+        "Hudsons Burger Joint" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected offerings! Selected appetizers, draughts and cocktails are half priced!",
+          "location" : "CNR LIGHTHOUSE & CHARTWELL DRIVE, UMHLANGA",
+          "number" : "031 561 1662",
+          "time" : "4:30pm - 6:30pm"
+        },
+        "Lookout bar and grill" : {
+          "Price" : "Varies",
+          "description" : "Ribs and Chips#500g R85#1kg R139",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        },
+        "Panarottis Pizza Pasta Gateway" : {
+          "Price" : "R89.90",
+          "description" : "All you can eat pizza as you like R89.90",
+          "location" : "F271, 1 Palm Blvd, Umhlanga Ridge, Durban",
+          "number" : "031 562 0567",
+          "time" : "From 5pm"
+        },
+        "Ton Hoi Chinese Restaurant And Take Away" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi",
+          "location" : "37B Newport Ave, Glen Ashley,",
+          "number" : "031 562 9933",
+          "time" : "11:30am - 12:30pm, 4:30 pm - 9:30 pm"
+        }
+      },
+      "Lunch" : {
+        "Beluga" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi!",
+          "location" : "Gateway",
+          "number" : "031 584 7430",
+          "time" : "12pm – 7pm"
+        },
+        "Connors public house" : {
+          "Price" : "R65",
+          "description" : "Any burger and Windhoek Draught or Strongbow Cider",
+          "location" : "11-13 Mackeurtan Ave, Durban North",
+          "number" : "031 563 4462",
+          "time" : "all day"
+        },
+        "Deep Blue Fish co" : {
+          "Price" : "R30",
+          "description" : "Lunch Time Special: Hake & Chips - R30",
+          "location" : "Shop 1 Arcadia Centre, 87 Umhlanga Rocks Drive, Durban North Durban North",
+          "number" : "0314612530",
+          "time" : "11:00am - 2:00 pm"
+        },
+        "Drop kick murphy's" : {
+          "Price" : "Varies",
+          "description" : "Lunch Special: Beef or Chicken burger and fruit juice for R49. Chicken salad and fruit juice R39",
+          "location" : "219 Florida Road Durban, KwaZulu-Natal",
+          "number" : "031 825 1858",
+          "time" : "12:00pm - 3:00pm"
+        },
+        "Lookout bar and grill" : {
+          "Price" : "Varies",
+          "description" : "Ribs and Chips#500g R85#1kg R139",
+          "location" : "36 Newport Avenue Durban",
+          "number" : "031 562 1415",
+          "time" : "12:00PM - 3:00PM, 6:00PM - 10:00PM"
+        },
+        "Tatum's at Caffe Italia" : {
+          "Price" : "R46",
+          "description" : "Peri Chicken Livers, Chips & Portuguese roll#R49.00 ",
+          "location" : " Shop 6, Ilala Ridge Shopping Centre, 2 Ilala Drive Durban",
+          "number" : "031 572 5670",
+          "time" : "Lunch"
+        },
+        "Ton Hoi Chinese Restaurant And Take Away" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi",
+          "location" : "37B Newport Ave, Glen Ashley,",
+          "number" : "031 562 9933",
+          "time" : "11:30am - 12:30pm, 4:30 pm - 9:30 pm"
+        },
+        "Woodstock" : {
+          "Price" : "R60",
+          "description" : "Steak Egg and Chips#R60",
+          "location" : "46 Ashley Avenue, Glenashley",
+          "number" : "072 630 2720",
+          "time" : "Lunch"
+        }
+      },
+      "Student Specials" : {
+        "Riverside Spur" : {
+          "Price" : "Varies",
+          "description" : "Student menu (student card required)#Waffle combo (Waffle and milkshake)- R30#Wrap and soda - R49.90#Nachos (starter portion) - R44.90#Burger and soda - R49.90#Steak (150g) and soda - R49.90",
+          "location" : "Durban North",
+          "number" : "0315611662",
+          "time" : "During working hours before 5 pm and not on public holidays and during holidays"
+        }
+      }
+    },
+    "5Friday" : {
+      "All Day" : {
+        "The Fish Plaice" : {
+          "Price" : "R53",
+          "description" : "Large hake and chips#R53",
+          "location" : "Almil Centre, 47 Ashley Ave, Glen Ashley",
+          "number" : "031 572 7959",
+          "time" : "All day"
+        }
+      },
+      "Deserts" : {
+        "Wicked Donuts" : {
+          "Price" : "Varies",
+          "description" : "Happy hour: half price Donuts",
+          "location" : "Durban North",
+          "number" : "0315633814",
+          "time" : "8pm - 9pm"
+        }
+      },
+      "Dinner" : {
+        "Hudsons Burger Joint" : {
+          "Price" : "Varies",
+          "description" : "Half price on selected offerings! Selected appetizers, draughts and cocktails are half priced!",
+          "location" : "CNR LIGHTHOUSE & CHARTWELL DRIVE, UMHLANGA",
+          "number" : "031 561 1662",
+          "time" : "4:30pm - 6:30pm"
+        }
+      },
+      "Lunch" : {
+        "Beluga" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi!",
+          "location" : "Gateway",
+          "number" : "031 584 7430",
+          "time" : "12pm – 7pm"
+        },
+        "Deep Blue Fish co" : {
+          "Price" : "R30",
+          "description" : "Lunch Time Special: Hake & Chips - R30",
+          "location" : "Shop 1 Arcadia Centre, 87 Umhlanga Rocks Drive, Durban North Durban North",
+          "number" : "0314612530",
+          "time" : "11:00am - 2:00 pm"
+        },
+        "Drop kick murphy's" : {
+          "Price" : "Varies",
+          "description" : "Lunch Special: Beef or Chicken burger and fruit juice for R49. Chicken salad and fruit juice R39",
+          "location" : "219 Florida Road Durban, KwaZulu-Natal",
+          "number" : "031 825 1858",
+          "time" : "12:00pm - 3:00pm"
+        },
+        "Tatum's at Caffe Italia" : {
+          "Price" : "R49",
+          "description" : "Chicken Alfredo (With Penne, Spaghetti or Tagliatelle )#R49.00 ",
+          "location" : "Shop 6, Ilala Ridge Shopping Centre, 2 Ilala Drive Durban",
+          "number" : "031 572 5670",
+          "time" : "Lunch"
+        },
+        "Woodstock" : {
+          "Price" : "R55",
+          "description" : "Pulled Pork Burger and Chips#R55",
+          "location" : "46 Ashley Avenue, Glenashley",
+          "number" : "072 630 2720",
+          "time" : "Lunch"
+        }
+      },
+      "Student Specials" : {
+        "Riverside Spur" : {
+          "Price" : "Varies",
+          "description" : "Student menu (student card required)#Waffle combo (Waffle and milkshake)- R30#Wrap and soda - R49.90#Nachos (starter portion) - R44.90#Burger and soda - R49.90#Steak (150g) and soda - R49.90",
+          "location" : "Durban North",
+          "number" : "0315611662",
+          "time" : "During working hours before 5 pm and not on public holidays and during holidays"
+        }
+      }
+    },
+    "6Saturday" : {
+      "All Day" : {
+        "Connors public house" : {
+          "Price" : "R86",
+          "description" : "Rack of ribs with either Windoek Draught or Strongbow Cider",
+          "location" : "11-13 Mackeurtan Ave, Durban North",
+          "number" : "031 563 4462",
+          "time" : "All day"
+        },
+        "The Fish Plaice" : {
+          "Price" : "R67",
+          "description" : "Hake and calamari special#R67",
+          "location" : "Almil Centre, 47 Ashley Ave, Glen Ashley",
+          "number" : "031 572 7959",
+          "time" : "All day"
+        }
+      },
+      "Lunch" : {
+        "Beluga" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi!",
+          "location" : "Gateway",
+          "number" : "031 584 7430",
+          "time" : "12pm – 7pm"
+        }
+      }
+    },
+    "7Sunday" : {
+      "All Day" : {
+        "Pasha's" : {
+          "Price" : "R250",
+          "description" : "Sunday Family Special: Two large Passionate Pizzas and Two Posh pastas - R250",
+          "location" : "37 Newport Ave, Glen Ashley, Durban",
+          "number" : "031 562 0567",
+          "time" : "All day"
+        },
+        "The Fish Plaice" : {
+          "Price" : "R86",
+          "description" : "Grilled prawns and rice#R86",
+          "location" : "Almil Centre, 47 Ashley Ave, Glen Ashley",
+          "number" : "031 572 7959",
+          "time" : "All day"
+        }
+      },
+      "Lunch" : {
+        "Beluga" : {
+          "Price" : "Varies",
+          "description" : "Half price sushi!",
+          "location" : "Gateway",
+          "number" : "031 584 7430",
+          "time" : "12pm – 7pm"
+        }
+      },
+      "Pub Drinks" : {
+        "Drop kick murphy's" : {
+          "Price" : "R19",
+          "description" : "All cocktails R19 till stocks last",
+          "location" : "219 Florida Road Durban, KwaZulu-Natal",
+          "number" : "031 825 1858",
+          "time" : "should be business hours, need to investigate"
+        }
+      }
+    }
+  }
+}

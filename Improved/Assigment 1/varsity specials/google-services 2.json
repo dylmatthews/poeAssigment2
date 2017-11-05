@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "920976232515",
+    "firebase_url": "https://foodspecials-5c5d9.firebaseio.com",
+    "project_id": "foodspecials-5c5d9",
+    "storage_bucket": "foodspecials-5c5d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920976232515:android:8192ab6eed253f7b",
+        "android_client_info": {
+          "package_name": "am.dx.varsityspecials.www.varsityspecials"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920976232515-u0gqe1auf7tltv4009n1ip9833gkam81.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "am.dx.varsityspecials.www.varsityspecials",
+            "certificate_hash": "e846204c4328e1238b8f3b7ff925c30eddad4df1"
+          }
+        },
+        {
+          "client_id": "920976232515-p1rnucj7httnhq6bl2d3sud7bn67l85a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "am.dx.varsityspecials.www.varsityspecials",
+            "certificate_hash": "883fdae4e9ebb3bd147297e676d36730e12bfa53"
+          }
+        },
+        {
+          "client_id": "920976232515-bf98rqiieni4nbj73m0oev8gfnosa1bu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDAl4OmQR44mTbyUGGRdI37nAhyT6qyWU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920976232515-bf98rqiieni4nbj73m0oev8gfnosa1bu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+ xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_blog_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+     tools:context="am.dx.varsityspecials.www.varsityspecials.blogHome">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    >
+
+
+    <ImageButton
+        android:layout_height="200dp"
+        app:srcCompat="@mipmap/add_btn"
+        android:id="@+id/ibImageSelect"
+        android:layout_width="370dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:cropToPadding="true" />
+
+
+
+
+        <android.support.design.widget.TextInputLayout
+        android:layout_below="@id/ibImageSelect"
+        android:id="@+id/input_layout_NOP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <EditText
+               android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/NOP"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:hint="Name Of Place" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_DES"
+        android:layout_width="match_parent"
+        android:layout_below="@id/input_layout_NOP"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/DES"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:hint="Description"
+            android:layout_weight="1" />
+    </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:text="Post to blog"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/input_layout_DES"
+            android:layout_alignParentStart="true"
+            android:id="@+id/btnPost"
+            android:layout_alignParentEnd="true"
+            android:onClick="onSubmit" />
+
+
+
+
+    </RelativeLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        app:menu="@menu/navbar"
+        android:layout_gravity="start">
+    </android.support.design.widget.NavigationView>
+
+
+
+</android.support.v4.widget.DrawerLayout>
