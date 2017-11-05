@@ -208,13 +208,14 @@ public class addrepair extends AppCompatActivity
             Toast.makeText(this, "ticket " + tick, Toast.LENGTH_SHORT).show();
 
             ticketNum = Integer.parseInt(tick);
+            Toast.makeText(this, "ticket " + ticketNum, Toast.LENGTH_SHORT).show();
+
 
         }
         catch (Exception ex)
         {
             ex.printStackTrace();
-            Toast.makeText(this, "Problem reading ticket number", Toast.LENGTH_SHORT).show();
-            Toast.makeText(this, ex.getMessage(), Toast.LENGTH_SHORT).show();
+
         }
     }
 
@@ -317,8 +318,9 @@ public class addrepair extends AppCompatActivity
             newpost.child("cellphone").setValue(cellNumber);
             newpost.child("image").setValue(file.getLastPathSegment());
             newpost.child("date").setValue(date);
-            newpost.child("ticketnum").setValue(ticketNum);
-            refTicketNum.child("ticket number").setValue(ticketNum);
+            newpost.child("ticketnum").setValue(ticketNum + 1 );
+            refTicketNum.setValue(ticketNum+1) ;
+            refTicketNum.child("ticket number").setValue(ticketNum+1);
 
 
             StorageReference repairs = storageReference.child("repairs");
@@ -330,7 +332,7 @@ public class addrepair extends AppCompatActivity
                 e.printStackTrace();
             }
             ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            bmp.compress(Bitmap.CompressFormat.JPEG, 100, baos);
+            bmp.compress(Bitmap.CompressFormat.JPEG, 50, baos);
             byte[] data = baos.toByteArray();
             UploadTask filePath = repairs.child(file.getLastPathSegment()).putBytes(data);
 
