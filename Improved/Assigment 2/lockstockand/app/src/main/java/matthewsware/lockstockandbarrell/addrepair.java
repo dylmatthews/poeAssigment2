@@ -205,8 +205,6 @@ public class addrepair extends AppCompatActivity
 
         try{
            String tick = dataSnapshot.child("ticket number").getValue().toString();
-            Toast.makeText(this, "ticket " + tick, Toast.LENGTH_SHORT).show();
-
             ticketNum = Integer.parseInt(tick);
             Toast.makeText(this, "ticket " + ticketNum, Toast.LENGTH_SHORT).show();
 
