@@ -53,7 +53,7 @@ public class repairsArray extends ArrayAdapter<repairs> {
     }
 
     @Override
-    public void add(repairs object) {
+    public void add(repairs object) { //adds object to repairs
         cardList.add(object);
         super.add(object);
     }
@@ -61,10 +61,10 @@ public class repairsArray extends ArrayAdapter<repairs> {
     @Override
     public int getCount() {
         return this.cardList.size();
-    }
+    } //returns the count
 
     @Override
-    public View getView(final int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, ViewGroup parent) { //this shows the data in grid vie
         View row = convertView;
         final CardViewHolder viewHolder;
         if (row == null) {
@@ -93,14 +93,11 @@ public class repairsArray extends ArrayAdapter<repairs> {
 
         for (int i = 0; i < imgAr.length; i++) {
 
-            if (viewHolder.imgUrl.equals(imgAr[i].getName())) {
+            if (viewHolder.imgUrl.equals(imgAr[i].getName())) { //checks if image exists on phone
+
 
                 imgNotExists = false;
 
-                // iv.setImageBitmap(decodeSampledBitmap(imgAr[i].getName()));
-                //Toast.makeText(co, "image exists", Toast.LENGTH_SHORT).show();
-                // Bitmap bit = BitmapFactory.decodeFile(imgAr[i].getAbsolutePath());
-                //  viewHolder.im.setImageBitmap(bit);
                 viewHolder.im.setImageURI(Uri.parse(imgAr[i].getAbsolutePath()));
                 i = imgAr.length;
 
@@ -110,7 +107,7 @@ public class repairsArray extends ArrayAdapter<repairs> {
         }
 
 
-        if (imgNotExists) {
+        if (imgNotExists) { //if it doesnt exist download image here
             storageRef.child(ref).getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
                 @Override
                 public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {

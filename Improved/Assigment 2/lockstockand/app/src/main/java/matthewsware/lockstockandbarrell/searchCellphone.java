@@ -53,7 +53,7 @@ public class searchCellphone extends AppCompatActivity
     private ImageView profilepic;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) { //Initializing variables
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_cellphone);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -101,7 +101,7 @@ public class searchCellphone extends AppCompatActivity
 
                 StorageReference imgRef = FirebaseStorage.getInstance().getReference("profile pics/" + mUser.getPhotoUrl().toString());
 
-
+                    //sets user profile pic
                 File localFile = null;
                 try {
                     localFile = File.createTempFile("images", "jpg");
@@ -142,7 +142,7 @@ public class searchCellphone extends AppCompatActivity
 
     }
 
-    public void onSearchCellphone(View view)
+    public void onSearchCellphone(View view) //button click
     {
         cellphone = etCellphone.getText().toString();
 
@@ -213,18 +213,18 @@ public class searchCellphone extends AppCompatActivity
         }
     }
 
-    private void showData(DataSnapshot dataSnapshot) {
+    private void showData(DataSnapshot dataSnapshot) { //method for reading data
 
         try {
             mGridAdapter = new repairsArray(getApplicationContext(), R.layout.grid_image);
 
             repairs item;
 
-            Iterable<DataSnapshot> lstSnapshots = dataSnapshot.getChildren();
+            Iterable<DataSnapshot> lstSnapshots = dataSnapshot.getChildren(); //gets all data into array
             ArrayList<DataSnapshot> ds = new ArrayList<>();
             for (DataSnapshot dataSnapshot1 : lstSnapshots) {
                 //Toast.makeText(this, dataSnapshot1.toString(), Toast.LENGTH_SHORT).show();
-                ds.add(dataSnapshot1);
+                ds.add(dataSnapshot1); //reverses order to make it first at the top
                 //sorts data
 
             }
@@ -232,7 +232,8 @@ public class searchCellphone extends AppCompatActivity
             for(int  i = ds.size() - 1; i >= 0; i--) {
                 //lstDataSnapshots.add(dataSnapshot1);
 
-                if ((ds.get(i).child("cellphone").getValue().toString()).contains(cellphone)) {
+                //gets fields and sets into vairables
+                if ((ds.get(i).child("cellphone").getValue().toString()).contains(cellphone)) { //limits search results to cellphone search
                     cnt++;
                     item = new repairs();
 

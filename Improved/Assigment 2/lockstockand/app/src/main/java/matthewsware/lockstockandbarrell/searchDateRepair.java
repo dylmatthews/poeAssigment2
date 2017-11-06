@@ -63,7 +63,7 @@ public class searchDateRepair extends AppCompatActivity
     private ImageView profilepic;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) { //Initializing variables
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_date_repair);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -113,7 +113,7 @@ public class searchDateRepair extends AppCompatActivity
 
                 StorageReference imgRef = FirebaseStorage.getInstance().getReference("profile pics/" + mUser.getPhotoUrl().toString());
 
-
+                //sets user profile pic
                 File localFile = null;
                 try {
                     localFile = File.createTempFile("images", "jpg");
@@ -157,7 +157,7 @@ public class searchDateRepair extends AppCompatActivity
     }
 
 
-        public void cal() {
+        public void cal() { //sets calander
         etDate.setOnClickListener(searchDateRepair.this);
         Calendar newCalendar = Calendar.getInstance();
         date = new DatePickerDialog(this, new DatePickerDialog.OnDateSetListener() {
@@ -169,7 +169,7 @@ public class searchDateRepair extends AppCompatActivity
         }, newCalendar.get(Calendar.YEAR), newCalendar.get(Calendar.MONTH), newCalendar.get(Calendar.DAY_OF_MONTH));
     }
 
-    public void onSearchDate(View view)
+    public void onSearchDate(View view) //button click
     {
        searchDate = etDate.getText().toString();
         if (!searchDate.isEmpty())
@@ -236,14 +236,14 @@ public class searchDateRepair extends AppCompatActivity
         }
     }
 
-    private void showData(DataSnapshot dataSnapshot) {
+    private void showData(DataSnapshot dataSnapshot) { //method for reading data
 
         try {
             mGridAdapter = new repairsArray(getApplicationContext(), R.layout.grid_image);
 
             repairs item;
 
-            Iterable<DataSnapshot> lstSnapshots = dataSnapshot.getChildren();
+            Iterable<DataSnapshot> lstSnapshots = dataSnapshot.getChildren(); //gets all data into array
             ArrayList<DataSnapshot> ds = new ArrayList<>();
             for (DataSnapshot dataSnapshot1 : lstSnapshots) {
                 //Toast.makeText(this, dataSnapshot1.toString(), Toast.LENGTH_SHORT).show();
@@ -255,10 +255,11 @@ public class searchDateRepair extends AppCompatActivity
             for(int  i = ds.size() - 1; i >= 0; i--) {
                 //lstDataSnapshots.add(dataSnapshot1);
 
-                if (searchDate.equals(ds.get(i).child("date").getValue().toString())) {
+                //gets fields and sets into vairables
+                if (searchDate.equals(ds.get(i).child("date").getValue().toString())) {//limits search results to date search
                     cnt++;
                     item = new repairs();
-
+                    //gets fields and sets into vairables
                     String cost = ds.get(i).child("cost").getValue().toString();
                     String cellphone = ds.get(i).child("cellphone").getValue().toString();
                     String image = ds.get(i).child("image").getValue().toString();

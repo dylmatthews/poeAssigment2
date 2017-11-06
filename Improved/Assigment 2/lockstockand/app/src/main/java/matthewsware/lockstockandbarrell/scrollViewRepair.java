@@ -48,7 +48,7 @@ public class scrollViewRepair extends AppCompatActivity {
     private int thumbnailHeight;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) { //Initializing variables
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_scroll_view_repair);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -90,14 +90,10 @@ public class scrollViewRepair extends AppCompatActivity {
 
         for (int i = 0; i < imgAr.length; i++) {
 
-            if (imgUrl.equals(imgAr[i].getName())) {
+            if (imgUrl.equals(imgAr[i].getName())) { //checks if image exists
 
                 imgNotExists = false;
 
-                // iv.setImageBitmap(decodeSampledBitmap(imgAr[i].getName()));
-                //Toast.makeText(co, "image exists", Toast.LENGTH_SHORT).show();
-                // Bitmap bit = BitmapFactory.decodeFile(imgAr[i].getAbsolutePath());
-                //  viewHolder.im.setImageBitmap(bit);
                 ivRepair.setImageURI(Uri.parse(imgAr[i].getAbsolutePath()));
                 i = imgAr.length;
 
@@ -107,7 +103,7 @@ public class scrollViewRepair extends AppCompatActivity {
         }
 
 
-        if (imgNotExists) {
+        if (imgNotExists) { //if it doesnt, download image here
             storageRef.child(ref).getFile(file).addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
                 @Override
                 public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
@@ -160,7 +156,7 @@ public class scrollViewRepair extends AppCompatActivity {
 
         });
 
-        FloatingActionButton nav = (FloatingActionButton) findViewById(R.id.nav);
+        FloatingActionButton nav = (FloatingActionButton) findViewById(R.id.nav); //button for nav
         nav.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -211,7 +207,7 @@ public class scrollViewRepair extends AppCompatActivity {
 
 
 
-    private boolean isLocationPermissionGranted() {
+    private boolean isLocationPermissionGranted() { //checks permissions
         if (Build.VERSION.SDK_INT >= 23) {
             if (checkSelfPermission(android.Manifest.permission.ACCESS_FINE_LOCATION)
                     == PackageManager.PERMISSION_GRANTED) {
@@ -232,7 +228,7 @@ public class scrollViewRepair extends AppCompatActivity {
 
     }
 
-    public  boolean isPermissionGranted() {
+    public  boolean isPermissionGranted() {  //checks permissions
         if (Build.VERSION.SDK_INT >= 23) {
             if (checkSelfPermission(android.Manifest.permission.CALL_PHONE)
                     == PackageManager.PERMISSION_GRANTED) {
@@ -253,7 +249,7 @@ public class scrollViewRepair extends AppCompatActivity {
     }
 
 
-    public void call_action() {
+    public void call_action() {//button for calling
         Intent callIntent = new Intent(Intent.ACTION_DIAL);
         callIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
         callIntent.setData(Uri.parse("tel:" + cellphone));

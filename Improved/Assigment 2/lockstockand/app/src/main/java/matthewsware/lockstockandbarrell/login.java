@@ -48,7 +48,7 @@ public class login extends AppCompatActivity
     private ImageView profilepic;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) { //Initializing variables
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -64,7 +64,7 @@ public class login extends AppCompatActivity
             public void onInit(int status) {
                 if (status==TextToSpeech.SUCCESS)
                 {
-                    result = toSpeech.setLanguage(Locale.UK);
+                    result = toSpeech.setLanguage(Locale.UK); //speech
                 }
                 else
                 {
@@ -110,7 +110,7 @@ public class login extends AppCompatActivity
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
-                final File finalLocalFile = localFile;
+                final File finalLocalFile = localFile; //loads user pic into app bar
                 imgRef.getFile(localFile) //downloads image
                         .addOnSuccessListener(new OnSuccessListener<FileDownloadTask.TaskSnapshot>() {
                             @Override
@@ -156,13 +156,13 @@ public class login extends AppCompatActivity
 
     }
 
-    public void onLogin(View view)
+    public void onLogin(View view) //on login button click
     {
         //this method signs the user in
         final String email = etEmail.getText().toString();
         final String password = etPassword.getText().toString();
 
-        if (!(email.isEmpty() || password.isEmpty()))
+        if (!(email.isEmpty() || password.isEmpty())) //checks if fields are empty
         {
             mAuth.signInWithEmailAndPassword(email, password)
                     .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
@@ -195,9 +195,10 @@ public class login extends AppCompatActivity
         }
     }
 
-    public void onSignUp(View view)
+    public void onSignUp(View view) //on sign up button click
     {
-
+        startActivity(new Intent(getApplicationContext(), signup.class));
+        finish();
     }
 
 

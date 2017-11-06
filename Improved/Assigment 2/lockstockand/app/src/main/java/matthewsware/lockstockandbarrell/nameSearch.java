@@ -56,7 +56,7 @@ public class nameSearch extends AppCompatActivity
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) { //Initializing variables
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_name_search);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);

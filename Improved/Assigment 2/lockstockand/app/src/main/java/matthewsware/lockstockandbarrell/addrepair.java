@@ -66,7 +66,7 @@ public class addrepair extends AppCompatActivity
     private int ticketNum =0;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) { //initializing
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_addrepair);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -91,13 +91,12 @@ public class addrepair extends AppCompatActivity
         refTicketNum  = database.getReference("ticket number");
         refTicketNum.addValueEventListener(new ValueEventListener() { //gets ticket number
             @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                //  Toast.makeText(foundAnimal.this, dataSnapshot.getKey(), Toast.LENGTH_SHORT).show();
-                Log.i("shitTest", "shitTest");
-                //    Toast.makeText(viewRepairs.this, dataSnapshot.toString(), Toast.LENGTH_SHORT).show();
+            public void onDataChange(DataSnapshot dataSnapshot) { //when data changes
+
+
                 showData(dataSnapshot);
 
-                //  Toast.makeText(foundAnimal.this, dataSnapshot.getKey(), Toast.LENGTH_SHORT).show();
+
             }
 
             @Override
@@ -105,6 +104,7 @@ public class addrepair extends AppCompatActivity
                 Log.i("shitTest", "shitTest");
             }
         });
+
 
 
 
@@ -161,7 +161,7 @@ public class addrepair extends AppCompatActivity
 
 
                 StorageReference imgRef = FirebaseStorage.getInstance().getReference("profile pics/" + mUser.getPhotoUrl().toString());
-
+ //sets user profile pic
 
                 File localFile = null;
                 try {
@@ -204,8 +204,8 @@ public class addrepair extends AppCompatActivity
     private void showData(DataSnapshot dataSnapshot) {
 
         try{
-           String tick = dataSnapshot.child("ticket number").getValue().toString();
-            ticketNum = Integer.parseInt(tick);
+           String tick = dataSnapshot.child("ticket number").getValue().toString(); //gets ticket number
+            ticketNum = Integer.parseInt(tick); //converts it to int
             Toast.makeText(this, "ticket " + ticketNum, Toast.LENGTH_SHORT).show();
 
 
@@ -218,10 +218,14 @@ public class addrepair extends AppCompatActivity
     }
 
 
-    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, String[] permissions, int[] grantResults) {  //checks permsiion
         if (requestCode == 0) {
             if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
                 btnCamera.setEnabled(true);
+            }
+        } else if (requestCode == 1) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED && grantResults[1] == PackageManager.PERMISSION_GRANTED) {
+             //   btnCamera.setEnabled(true);
             }
         }
     }

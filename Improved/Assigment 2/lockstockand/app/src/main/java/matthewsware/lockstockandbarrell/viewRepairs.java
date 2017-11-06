@@ -50,7 +50,7 @@ public class viewRepairs extends AppCompatActivity
     FirebaseDatabase database = FirebaseDatabase.getInstance();
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) { //Initializing variables
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_repairs);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -153,7 +153,7 @@ public class viewRepairs extends AppCompatActivity
 
                 StorageReference imgRef = FirebaseStorage.getInstance().getReference("profile pics/" + mUser.getPhotoUrl().toString());
 
-
+                //sets user profile pic
                 File localFile = null;
                 try {
                     localFile = File.createTempFile("images", "jpg");
@@ -194,7 +194,8 @@ public class viewRepairs extends AppCompatActivity
 
     }
 
-    private void showData(DataSnapshot dataSnapshot) {
+    private void showData(DataSnapshot dataSnapshot) { //method for reading data
+
 
         try {
            mGridAdapter = new repairsArray(getApplicationContext(), R.layout.grid_image);
@@ -208,6 +209,8 @@ public class viewRepairs extends AppCompatActivity
                 ds.add(dataSnapshot1);
 
             }
+
+            //gets fields and sets into vairables
             for(int  i = ds.size() - 1; i >= 0; i--) {
                 //lstDataSnapshots.add(dataSnapshot1);
                 item = new repairs();

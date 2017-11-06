@@ -65,7 +65,7 @@ public class signup extends AppCompatActivity
 
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) { //Initializing variables
 
         try {
             super.onCreate(savedInstanceState);
@@ -138,7 +138,7 @@ public class signup extends AppCompatActivity
 
                 StorageReference imgRef = FirebaseStorage.getInstance().getReference("profile pics/" + mUser.getPhotoUrl().toString());
 
-
+                //sets user profile pic
                 File localFile = null;
                 try {
                     localFile = File.createTempFile("images", "jpg");

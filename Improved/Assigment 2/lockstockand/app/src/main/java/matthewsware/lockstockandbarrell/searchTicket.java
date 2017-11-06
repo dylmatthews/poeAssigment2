@@ -53,7 +53,7 @@ public class searchTicket extends AppCompatActivity
     private FirebaseDatabase database = FirebaseDatabase.getInstance();
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) { //Initializing variables
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search_ticket);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
@@ -102,7 +102,7 @@ public class searchTicket extends AppCompatActivity
 
                 StorageReference imgRef = FirebaseStorage.getInstance().getReference("profile pics/" + mUser.getPhotoUrl().toString());
 
-
+                //sets user profile pic
                 File localFile = null;
                 try {
 
@@ -142,7 +142,7 @@ public class searchTicket extends AppCompatActivity
         }
     }
 
-    public void onSearchTicket(View view)
+    public void onSearchTicket(View view) //button click
     {
         ticketNum = etTicketNum.getText().toString();
 
@@ -213,7 +213,7 @@ public class searchTicket extends AppCompatActivity
 
     }
 
-    private void showData(DataSnapshot dataSnapshot) {
+    private void showData(DataSnapshot dataSnapshot) { //method for reading data
 
         try {
             mGridAdapter = new repairsArray(getApplicationContext(), R.layout.grid_image);
@@ -231,8 +231,9 @@ public class searchTicket extends AppCompatActivity
             int cnt =0;
             for(int  i = ds.size() - 1; i >= 0; i--) {
                 //lstDataSnapshots.add(dataSnapshot1);
+                //gets fields and sets into vairables
 
-                if ((ds.get(i).child("ticketnum").getValue().toString()).contains(ticketNum)) {
+                if ((ds.get(i).child("ticketnum").getValue().toString()).contains(ticketNum)) { //limits search results to ticket number
                     cnt++;
                     item = new repairs();
 

@@ -14,7 +14,7 @@ public class help extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) { //Initializing variables
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);

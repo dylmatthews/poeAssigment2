@@ -22,6 +22,6 @@ public class splash extends AppCompatActivity {
                 startActivity(HelpIntent);
                 finish();
             }
-        },SPLASH_TIME_OUT);
+        },SPLASH_TIME_OUT); //stes this screen to show for 5 seconds
     }
 }
