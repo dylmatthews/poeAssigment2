@@ -47,8 +47,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private List<Marker> destinationMarkers = new ArrayList<>();
     private List<Polyline> polylinePaths = new ArrayList<>();
     private ProgressDialog progressDialog;
-    LocationManager locationManager;
-    Location location;
+    private LocationManager locationManager;
+    private Location location;
     private double latitude;
     private double longitude;
     private String area = "";

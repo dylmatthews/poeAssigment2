@@ -50,7 +50,7 @@ public class searchTicket extends AppCompatActivity
     private FirebaseAuth mAuth;
     private FirebaseUser mUser;
     private ImageView profilepic;
-    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    private FirebaseDatabase database = FirebaseDatabase.getInstance();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

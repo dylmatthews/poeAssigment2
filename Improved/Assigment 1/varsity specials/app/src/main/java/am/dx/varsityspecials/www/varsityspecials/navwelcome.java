@@ -20,9 +20,9 @@ import com.google.firebase.database.ValueEventListener;
 public class navwelcome extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
-    FirebaseDatabase database = FirebaseDatabase.getInstance();
-    DatabaseReference myRef;
-    TextView help;
+    private FirebaseDatabase database = FirebaseDatabase.getInstance();
+    private DatabaseReference myRef;
+    private TextView help;
     @Override
     protected void onCreate(Bundle savedInstanceState) { //initializing
         super.onCreate(savedInstanceState);

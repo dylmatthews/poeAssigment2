@@ -46,7 +46,7 @@ public class nameSearch extends AppCompatActivity
     private repairsArray mGridAdapter;
     private ArrayList<repairs> mGridData;
     private String name;
-    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    private FirebaseDatabase database = FirebaseDatabase.getInstance();
 
     private TextView tvEmail , tvName;
     private FirebaseAuth mAuth;

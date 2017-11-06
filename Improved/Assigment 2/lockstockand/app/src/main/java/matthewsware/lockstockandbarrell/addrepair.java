@@ -58,7 +58,7 @@ public class addrepair extends AppCompatActivity
     private ImageView profilepic;
     private FirebaseDatabase mData;
     private DatabaseReference mRef, refTicketNum;
-   private FirebaseDatabase database = FirebaseDatabase.getInstance();
+    private FirebaseDatabase database = FirebaseDatabase.getInstance();
     private StorageReference storageReference;
     private Uri file=null;
     private ImageView imageView;

@@ -45,7 +45,7 @@ public class searchCellphone extends AppCompatActivity
     private GridView mGridView;
     private repairsArray mGridAdapter;
     private ArrayList<repairs> mGridData;
-    FirebaseDatabase database = FirebaseDatabase.getInstance();
+    private FirebaseDatabase database = FirebaseDatabase.getInstance();
 
     private TextView tvEmail , tvName;
     private FirebaseAuth mAuth;

@@ -40,7 +40,7 @@ public class login extends AppCompatActivity
     private EditText etEmail;
     private EditText etPassword;
     final String TAG = "Login";
-    TextToSpeech toSpeech;
+    private TextToSpeech toSpeech;
     int result;
     private TextView tvEmail , tvName;
     private FirebaseAuth mAuth;
